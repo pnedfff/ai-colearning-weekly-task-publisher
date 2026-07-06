@@ -1,25 +1,25 @@
 ---
 name: ai-colearning-checkin-2026h2w1
-description: Create and facilitate the 2026H2W1 AI co-learning group check-in task for practicing Codex on a real messy-folder cleanup workflow. Use when drafting the week 1 assignment, group announcement, participant instructions, submission template, acceptance criteria, recap, or facilitator guidance for a Codex co-learning community.
+description: 创建和带领 2026H2W1 AI 共学群打卡任务，主题是用 Codex 安全整理一个真实混乱文件夹。适用于生成第一周任务、群公告、参与者操作说明、提交模板、验收标准、复盘总结和带班提醒。
 ---
 
 # AI共学群打卡任务 - 2026H2W1
 
-## Goal
+## 目标
 
-Turn the first Codex co-learning week into a practical check-in task: participants use Codex to safely organize one messy local folder copy, then submit evidence of the workflow, not just a polished final folder.
+把 Codex 共学第一周设计成一个真实可做的打卡任务：让参与者用 Codex 安全整理一个本地混乱文件夹副本，并提交过程证据，而不是只展示一个整理后的漂亮结果。
 
-The core lesson is safe delegation: copy first, set rules, read-only inventory, plan before execution, confirm changes, and leave an audit trail.
+这一周的核心不是“文件夹分类技巧”，而是练会安全委托：先复制副本，再设规则；先只读盘点，再出计划；确认后执行；执行后留下索引、待确认清单和整理日志。
 
-## Assignment
+## 任务标题
 
-Use this task title:
+使用这个标题：
 
 ```text
 2026H2W1｜用 Codex 安全整理一个混乱文件夹
 ```
 
-Use this short group announcement:
+群公告可以这样写：
 
 ```text
 本周任务：找一个真实但不重要的混乱文件夹，先复制副本，再让 Codex 按“只读盘点 -> 出整理方案 -> 确认执行 -> 生成索引和日志”的流程整理一次。
@@ -27,38 +27,38 @@ Use this short group announcement:
 重点不是整理得多漂亮，而是练会把本地电脑任务安全交给 Codex：有副本、有规则、有计划、有确认、有记录。
 ```
 
-## Participant Workflow
+## 参与者流程
 
-Ask participants to complete these steps:
+要求参与者完成这些步骤：
 
-1. Pick a messy folder
-   - Use a real folder such as downloads, project materials, event assets, meeting notes, course materials, customer资料, or image collections.
-   - Copy it first. Work only inside the copy.
-   - Do not use sensitive folders containing secrets, certificates, contracts, private IDs, API keys, passwords, or unreleasable customer data.
+1. 选择一个混乱文件夹
+   - 可以使用下载文件夹、项目资料、活动素材、会议纪要、课程资料、客户资料副本、图片合集等真实文件夹。
+   - 必须先复制一份副本，只在副本里操作。
+   - 不要使用包含密码、密钥、证书、合同、身份证件、未公开客户资料等敏感内容的文件夹。
 
-2. Add a project rule file
-   - Ask Codex to create `AGENTS.md` in the folder copy.
-   - Require Chinese replies, current-folder-only operations, no deletion, no overwrite, first pass read-only, ask before uncertain actions, and update the cleanup log after execution.
+2. 添加项目规则文件
+   - 让 Codex 在文件夹副本里创建 `AGENTS.md`。
+   - 规则必须包含：默认中文回复、只允许操作当前项目文件夹、第一轮只读、禁止删除、禁止覆盖、不确定先问、执行后更新整理日志。
 
-3. Run read-only inventory
-   - Ask Codex to list file types, counts, likely usage, duplicate/version conflicts, unclear files, and confirmation questions.
-   - It must not move, rename, modify, or delete files in this step.
+3. 只读盘点现场
+   - 让 Codex 列出文件类型、数量、可能用途、疑似重复、版本冲突、不明用途文件和需要确认的问题。
+   - 这一步不能移动、重命名、修改或删除任何文件。
 
-4. Ask for a plan only
-   - Ask Codex to propose folder structure, placement rules, naming rules, unclear-file handling, and generated documents.
-   - It must not execute before the participant confirms.
+4. 只出整理方案
+   - 让 Codex 给出文件夹结构、文件放置规则、命名规则、不确定文件处理方式，以及需要生成的说明文档。
+   - 参与者确认前不能执行。
 
-5. Execute after confirmation
-   - Let Codex create folders, move files, and generate documentation.
-   - Expected docs: README or project notes, file index, pending-confirmation list, cleanup log, and version notes when old/final versions conflict.
+5. 确认后执行整理
+   - 让 Codex 创建分类文件夹、移动文件、生成说明文档。
+   - 期望生成：`README` 或资料说明、文件索引、待确认清单、整理日志；如果有旧版/最终版冲突，还要生成版本说明。
 
-6. Make one follow-up adjustment
-   - Ask Codex to revise one part of the result, such as merging guest materials, moving old versions to pending confirmation, changing folder names, or updating the index.
-   - Require a small plan before the second execution.
+6. 做一次二次调整
+   - 在第一轮整理结果上，再让 Codex 做一个小调整，例如合并嘉宾资料、把旧版本移动到待确认、调整文件夹命名、补充文件索引等。
+   - 二次调整前也要先列计划，确认后再执行。
 
-## Prompts
+## 可直接复制的提示词
 
-Use this prompt for `AGENTS.md`:
+创建 `AGENTS.md`：
 
 ```text
 我现在需要在这个项目文件夹里新建一个 AGENTS.md 规则文件。
@@ -70,7 +70,7 @@ Use this prompt for `AGENTS.md`:
 如果已经存在 AGENTS.md，请先读取并说明差异，不要覆盖。
 ```
 
-Use this prompt for read-only inventory:
+只读盘点：
 
 ```text
 请先只读盘点当前文件夹。
@@ -81,7 +81,7 @@ Use this prompt for read-only inventory:
 用一个简洁表格输出，最后列出我需要确认的问题。
 ```
 
-Use this prompt for planning:
+整理方案：
 
 ```text
 请进入计划模式。
@@ -91,7 +91,7 @@ Use this prompt for planning:
 需要生成哪些说明文档和整理日志。
 ```
 
-Use this prompt for a follow-up adjustment:
+二次调整：
 
 ```text
 请基于已经整理好的结果做一次二次调整。
@@ -99,9 +99,9 @@ Use this prompt for a follow-up adjustment:
 请先列出调整计划，说明会移动哪些文件、会更新哪些说明文档，等待我确认后再执行。
 ```
 
-## Submission Template
+## 打卡提交模板
 
-Ask participants to submit:
+要求参与者按这个格式提交：
 
 ```text
 2026H2W1 打卡：
@@ -117,32 +117,32 @@ Ask participants to submit:
 9. 这次我学到的一个安全使用 Codex 的经验：
 ```
 
-## Acceptance Criteria
+## 完成标准
 
-Treat a submission as complete when it shows:
+只要提交内容能证明下面这些点，就算完成：
 
-- It used a copied folder, not the only original.
-- It created or used `AGENTS.md` rules before execution.
-- It includes a read-only inventory result.
-- It includes a plan-before-execution step.
-- It includes final folder categories and generated docs.
-- It includes at least one pending-confirmation item or explains why none existed.
-- It includes one follow-up adjustment.
-- It states one safety lesson learned.
+- 使用的是文件夹副本，不是唯一原件。
+- 执行前创建或使用了 `AGENTS.md` 规则。
+- 有只读盘点结果。
+- 有先出方案、后确认执行的过程。
+- 有整理后的分类结构和生成文档。
+- 有待确认清单，或者说明为什么没有不确定文件。
+- 做过一次二次调整。
+- 写出一个安全使用 Codex 的经验。
 
-Do not require screenshots if the participant can provide a clear text summary. Encourage screenshots only when useful and safe.
+不强制要求截图。参与者能用文字说清楚过程即可；只有在安全且有帮助时再鼓励截图。
 
-## Facilitator Review
+## 带班复盘
 
-When reviewing submissions, focus on process quality:
+审核打卡时，重点看过程质量：
 
-- Good: clear safety boundary, no deletion, no overwrite, uncertainty preserved, logs updated.
-- Needs improvement: direct execution without inventory, working on originals, deleting files, forcing unclear files into categories, or no record of changes.
-- Best discussion question: "哪一步让你第一次觉得 Codex 是在帮你做真实电脑任务，而不是只给建议？"
+- 好的提交：边界清楚、不删除、不覆盖、保留不确定性、日志有记录。
+- 需要改进：没盘点就直接执行、直接操作原件、删除文件、强行分类不确定文件、没有整理记录。
+- 最适合群里讨论的问题：哪一步让你第一次觉得 Codex 是在帮你做真实电脑任务，而不是只给建议？
 
-For weekly recap, summarize three things:
+周复盘可以总结三件事：
 
-1. Common folder types participants chose.
-2. Common uncertainty patterns, such as final-version conflicts, unnamed files, duplicate images, or unclear meeting notes.
-3. One practical rule to carry into the next week.
+1. 大家最常整理的文件夹类型。
+2. 最常见的不确定问题，例如最终版冲突、未命名文件、重复图片、来源不明的会议记录。
+3. 下一周要继续保留的一条安全规则。
 

@@ -1,4 +1,4 @@
 interface:
   display_name: "AI共学群打卡任务skill - 2026H2W1"
   short_description: "生成Codex共学群W1文件整理打卡任务"
-  default_prompt: "Use $ai-colearning-checkin-2026h2w1 to create the 2026H2W1 Codex co-learning check-in task."
+  default_prompt: "使用 $ai-colearning-checkin-2026h2w1 生成 2026H2W1 的 Codex 共学群打卡任务。"

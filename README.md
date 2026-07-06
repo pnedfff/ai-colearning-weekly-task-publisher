@@ -1,27 +1,29 @@
 # AI共学群打卡任务skill - 2026H2W1
 
-This repository contains a Codex skill for the 2026H2W1 AI co-learning group check-in task.
+这个仓库是一个 Codex Skill，用来生成和带领 `2026H2W1` 的 AI 共学群打卡任务。
 
-## Skill
+## Skill 信息
 
-- Skill name: `ai-colearning-checkin-2026h2w1`
-- Week label: `2026H2W1`
-- Task title: `2026H2W1｜用 Codex 安全整理一个混乱文件夹`
+- Skill 名称：`ai-colearning-checkin-2026h2w1`
+- 周次标识：`2026H2W1`
+- 任务标题：`2026H2W1｜用 Codex 安全整理一个混乱文件夹`
 
-## Purpose
+## 用途
 
-Guide participants through a safe, practical Codex exercise:
+这个 Skill 帮助带班者把“用 Codex 整理混乱文件夹”设计成一周可执行、可提交、可复盘的共学任务。
 
-1. Copy a messy folder before touching files.
-2. Add `AGENTS.md` rules.
-3. Run read-only inventory.
-4. Ask Codex for a plan before execution.
-5. Confirm and execute the cleanup.
-6. Generate documentation and a cleanup log.
-7. Make one follow-up adjustment.
+参与者会练习：
 
-## Files
+1. 先复制混乱文件夹副本。
+2. 创建 `AGENTS.md` 安全规则。
+3. 让 Codex 只读盘点现场。
+4. 让 Codex 先出整理方案，不直接执行。
+5. 确认后执行文件整理。
+6. 生成文件索引、待确认清单和整理日志。
+7. 在整理结果上做一次二次调整。
 
-- `SKILL.md`: Skill instructions, prompts, submission template, and acceptance criteria.
-- `agents/openai.yaml`: UI metadata for Codex skill discovery.
+## 文件说明
+
+- `SKILL.md`：Skill 主体，包含任务说明、群公告、操作提示词、提交模板和完成标准。
+- `agents/openai.yaml`：Codex Skill 的界面元数据。
 
