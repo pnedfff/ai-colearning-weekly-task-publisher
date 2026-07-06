@@ -1,4 +1,4 @@
 interface:
   display_name: "AI共学群每周任务发布器"
   short_description: "生成和维护AI共学群每周打卡任务"
-  default_prompt: "使用 $ai-colearning-weekly-task-publisher 发布本周 AI 共学群打卡任务。"
+  default_prompt: "使用 $ai-colearning-weekly-task-publisher 回答：本周的共学群任务是啥？"
