@@ -1,29 +1,53 @@
-# AI共学群打卡任务skill - 2026H2W1
+# AI共学群每周任务发布器
 
-这个仓库是一个 Codex Skill，用来生成和带领 `2026H2W1` 的 AI 共学群打卡任务。
+这个仓库是一个 Codex Skill，用来生成、维护和发布 AI 共学群的每周打卡任务。
 
 ## Skill 信息
 
-- Skill 名称：`ai-colearning-checkin-2026h2w1`
-- 周次标识：`2026H2W1`
-- 任务标题：`2026H2W1｜用 Codex 安全整理一个混乱文件夹`
+- Skill 名称：`ai-colearning-weekly-task-publisher`
+- 中文名：AI共学群每周任务发布器
+- 用途：根据每周主题素材，生成群公告、任务正文、操作步骤、提交模板、完成标准和复盘问题。
 
-## 用途
+## 使用方式
 
-这个 Skill 帮助带班者把“用 Codex 整理混乱文件夹”设计成一周可执行、可提交、可复盘的共学任务。
+调用示例：
 
-参与者会练习：
+```text
+使用 $ai-colearning-weekly-task-publisher 发布 2026H2W1 的共学群任务。
+```
 
-1. 先复制混乱文件夹副本。
-2. 创建 `AGENTS.md` 安全规则。
-3. 让 Codex 只读盘点现场。
-4. 让 Codex 先出整理方案，不直接执行。
-5. 确认后执行文件整理。
-6. 生成文件索引、待确认清单和整理日志。
-7. 在整理结果上做一次二次调整。
+如果要新增一周任务，可以这样说：
+
+```text
+使用 $ai-colearning-weekly-task-publisher 新增 2026H2W2 任务。
+主题是：……
+素材是：……
+请生成群公告、任务说明、提交模板和完成标准，并写入 references/weeks/2026H2W2.md。
+```
+
+## 仓库结构
+
+```text
+.
+├── SKILL.md
+├── README.md
+├── agents/
+│   └── openai.yaml
+└── references/
+    ├── templates/
+    │   └── weekly-task-template.md
+    └── weeks/
+        └── 2026H2W1.md
+```
+
+## 当前已收录周次
+
+- `2026H2W1`：用 Codex 安全整理一个混乱文件夹
 
 ## 文件说明
 
-- `SKILL.md`：Skill 主体，包含任务说明、群公告、操作提示词、提交模板和完成标准。
+- `SKILL.md`：稳定发布流程和使用规则。
+- `references/weeks/`：每周具体任务内容。
+- `references/templates/`：新增周任务时使用的模板。
 - `agents/openai.yaml`：Codex Skill 的界面元数据。
 
