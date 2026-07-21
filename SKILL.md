@@ -184,6 +184,7 @@ references/calendars/2026H2.md
 
 - `2026H2W1`：用 Codex 安全整理一个混乱文件夹，见 `references/weeks/2026H2W1.md`。
 - `2026H2W2`：快速提案：用 Codex 把散乱资料变成方案，见 `references/weeks/2026H2W2.md`。
+- `2026H2W3`：数据处理：用 Codex 按你的标准检查、修复，见 `references/weeks/2026H2W3.md`。
 
 ## 已收录规划
 
