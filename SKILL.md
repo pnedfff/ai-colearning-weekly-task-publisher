@@ -190,6 +190,7 @@ references/calendars/2026H2.md
 - `2026H2W2`：快速提案：用 Codex 把散乱资料变成方案，见 `references/weeks/2026H2W2.md`。
 - `2026H2W3`：数据处理：用 Codex 按你的标准检查、修复，见 `references/weeks/2026H2W3.md`。
 - `2026H2W5`：轻松自动化：教 Codex 学会一个低风险电脑操作流程，见 `references/weeks/2026H2W5.md`。
+- `2026H2W7`：从分镜到短视频：讲清一个真实工作场景，见 `references/weeks/2026H2W7.md`。
 
 ## 已收录规划
 
